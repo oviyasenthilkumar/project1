@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.dashPg{
+    width: 98%;
+    margin: 3rem auto;
+    height: 80vh;
+    box-shadow: 3px 5px 10px grey;
+    border-radius: 10px;
+}
+.dash-container{
+    width: 90vw;
+    margin: auto;
+}
+.dashNav{
+    color: rgb(71, 156, 235);
+    font-size: 16px;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.DashNavUl{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+    height: 10vh;
+    background: #e8e7e7;
+    border-radius: 10px 10px 0 0 ;
+}
+.workerNo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 00 10px;
+    width: 20%;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5.5rem;
+    margin-left: 10rem;
+}
+.workerNo p{
+    font-size: 25px;
+    font-weight: 700;
+}
+.dashImgCnt{
+  position: absolute;
+  right:20rem;
+  top: 15rem;
+}
+.dashImg{
+    width: 300px;
+}
+.employeeImg{
+    width: 2rem;
+    margin-right: 20px;
+}

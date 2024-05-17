@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.containerAddEmp{
+    width: 75vw;
+    margin:4rem auto auto;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    padding: 2rem 0;
+    position: relative;
+}
+.formContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between!important;
+    align-items: center;
+    text-align: left;
+   width: 70vw;
+   padding: 0px;
+   height: 60vh;
+}
+.inputContainer{
+    width:70vh;
+}
+.addEmpBtn{
+    border-radius: 5px;
+    width: 70%;
+    margin-left:11rem;
+    font-weight: bold;
+    font-size: 13px;
+}
+.addEmpList{
+    color: rgb(83, 145, 203);
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    right: 2rem;
+}
+.model-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

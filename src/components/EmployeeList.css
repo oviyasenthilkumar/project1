@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.empContainer{
+   margin: 3rem auto auto;
+    position: relative;
+    width: 95%;
+}
+.empContainer h2{
+    text-align: left;
+    margin-left: 4rem;
+}
+td,th,tr{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 2rem auto;
+    text-align: center;
+}
+.tableList{
+    width: 90%;
+    margin:2rem auto auto;
+    border: 1px solid #ccc;
+}
+.updateBtn{
+    border-radius: 8px;
+    text-align: center;
+    margin: auto 10px;
+}
+.searchInput{
+    width: 97%;
+}
+.addEmpList1{
+    color: rgb(106, 166, 222);
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    right: 6rem;
+}
+.addEmpList2{
+    color: rgb(106, 166, 222);
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    right: 14rem;
+}
+.rows{
+    font-size: 14px;
+}
