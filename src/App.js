@@ -10,32 +10,6 @@ import UpdateTask from "./components/UpdateTask";
 
 function App() {
 
-  let employees = [
-    {
-      fname: "Jhon",
-      lname: "Francis",
-      id: "123",
-      salary: 50000,
-      doj: "05/23/2021",
-      mail: "raj12@gmail.com",
-    },
-    {
-      fname: "anu",
-      lname: "priya",
-      id: "133",
-      salary: 58000,
-      doj: "12/03/2023",
-      mail: "anupriya@gmail.com",
-    },
-    {
-      fname: "Vijay",
-      lname: "Sam",
-      id: "133",
-      salary: 58000,
-      doj: "12/03/2023",
-      mail: "anupriya@gmail.com",
-    } 
-  ]
   return (
    
     <BrowserRouter>
@@ -43,7 +17,7 @@ function App() {
     <Route path="/" element={<Login/>}/>
       <Route path="dashboard" element={<Dashboard/>}/>
       <Route path="addEmployee" element={<AddEmployee/>}/>
-      <Route path="employeeList" element={<EmployeeList/>} employees={employees}/>
+      <Route path="employeeList" element={<EmployeeList/>} />
       <Route path="updateTask" element={<UpdateTask/>}/>
       </Routes>
     </BrowserRouter>
